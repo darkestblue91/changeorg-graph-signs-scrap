@@ -1,4 +1,12 @@
 <?php
+/**
+ *
+ * @link              http://www.josuediaz.io
+ * @since             1.0.0
+ * @package           Change_Org_Signs_Scrapper
+ *
+ * GraphQL mini client
+*/
 
 function graphql_query(string $endpoint, string $query, array $variables = [], ?string $token = null): array
 {
